@@ -3,13 +3,13 @@ import liveStreamingState, { LiveStreamingState } from './liveStreamingState';
 import sessionState, { SessionState } from './sessionState';
 
 const rootReducer = combineReducers({
-  liveStreamingState,
-  sessionState
-})
+    liveStreamingState,
+    sessionState,
+});
 
 export interface AppState {
-  liveStreamingState: LiveStreamingState
-  sessionState: SessionState
+    liveStreamingState: LiveStreamingState;
+    sessionState: SessionState;
 }
 
-export default rootReducer
+export default rootReducer;

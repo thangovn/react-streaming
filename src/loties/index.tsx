@@ -9,13 +9,13 @@ export const lottie_cake = require('./lottie_cake.json');
 export const lottie_lipsticks = require('./lottie_lipsticks.json');
 
 export const lottiesIcons = [
-  { icon: lottie_gift_box, name: 'box' },
-  { icon: lottie_rose, name: 'rose' },
-  { icon: lottie_heart, name: 'heart' },
-  { icon: lottie_happy_cat, name: 'happy cat' },
-  { icon: lottie_panda, name: 'panda' },
-  { icon: lottie_gold_bar, name: 'gold bar' },
-  { icon: lottie_diamond, name: 'diamond' },
-  { icon: lottie_cake, name: 'cake' },
-  { icon: lottie_lipsticks, name: 'lipsticks' }
-]
+    { icon: lottie_gift_box, name: 'box' },
+    { icon: lottie_rose, name: 'rose' },
+    { icon: lottie_heart, name: 'heart' },
+    { icon: lottie_happy_cat, name: 'happy cat' },
+    { icon: lottie_panda, name: 'panda' },
+    { icon: lottie_gold_bar, name: 'gold bar' },
+    { icon: lottie_diamond, name: 'diamond' },
+    { icon: lottie_cake, name: 'cake' },
+    { icon: lottie_lipsticks, name: 'lipsticks' },
+];
