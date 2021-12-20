@@ -1,29 +1,28 @@
 {
-  "name": "typescript-react-test",
+  "name": "react-streaming",
   "version": "1.0.0",
-  "description": "Learning how to create React modules using TypeScript!",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
-  "license": "MIT",
+  "description": "",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "prepublishOnly": "yarn build"
+    "build": "rm -rf ./lib && tsc",
+    "prepare": "yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuanneotime/react-streaming.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuanneotime/react-streaming/issues"
+  },
+  "homepage": "https://github.com/thuanneotime/react-streaming#readme",
   "devDependencies": {
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "typescript": "^4.0.2"
-  },
-  "files": [
-    "/lib"
-  ]
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4"
+  }
 }
