@@ -1,5 +1,2 @@
-/// <reference types="react" />
-declare const SayHello: ({ name }: {
-    name: string;
-}) => JSX.Element;
-export default SayHello;
+import LiveStreamScreen from "./components/LiveStreamScreen";
+export { LiveStreamScreen };
