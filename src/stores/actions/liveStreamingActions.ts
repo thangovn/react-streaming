@@ -1,4 +1,4 @@
-import { GiftType, IGiftItem } from 'dist/dtos';
+import { IGiftItem } from '../../dtos';
 
 const actionTypes = {
     SHOW_GIFT: 'SHOW_GIFT',
