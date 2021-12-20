@@ -4,11 +4,11 @@
     "target": "es5",
     "module": "commonjs",
     "noImplicitAny": true,
-    "strictNullChecks": true,
+    "strict": false,
     "removeComments": true,
     "declaration": false,
     "sourceMap": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "typeRoots": ["index.d.ts", "node_modules/@types"]
   },
   "include": ["./src/**/*.tsx", "./src/**/*.ts"],

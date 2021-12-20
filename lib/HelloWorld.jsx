@@ -22,9 +22,9 @@ var HelloWorld = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     HelloWorld.prototype.renders = function () {
-        return React.createElement("div", { style: { color: this.props.color } }, "Hello world!");
+        return <div style={{ color: this.props.color }}>Hello world!</div>;
     };
     return HelloWorld;
 }(React.Component));
 exports.default = HelloWorld;
-//# sourceMappingURL=HelloWorld.js.map
+//# sourceMappingURL=HelloWorld.jsx.map
