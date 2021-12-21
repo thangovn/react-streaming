@@ -6,9 +6,11 @@
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib && yarn build:esm && yarn build:cjs",
+    "build": "rm -rf ./lib && yarn build:esm && yarn build:cjs && yarn cp:static && yarn cp:styles",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "cp:static": "cp src/images/gift-icon.gif src/images/ticon-arrow-bottom.svg lib/esm/images",
+    "cp:styles": "mkdir lib/esm/styles && cp src/styles/* lib/esm/styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
